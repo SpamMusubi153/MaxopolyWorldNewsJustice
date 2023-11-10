@@ -1,0 +1,110 @@
+.backgroundAndOverlay .overlay{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.75;
+  z-index: 0;
+  background-color: black;
+}
+
+.backgroundAndOverlay .background img{
+  display: block;
+  max-width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: -1;
+  padding-top: 50px;
+
+}
+
+.scroll{
+  z-index: 1;
+  position: fixed;
+  top: 625px;
+}
+
+.scroll img{
+  height: auto;
+  width: 175px;
+
+}
+
+.primaryTitle{
+  font-family: seguisb;
+  color: white;
+  text-shadow: 3px 3px 6px black;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 90px;
+  height: 1000px;
+  width: 1250px;
+  z-index: 5;
+
+}
+
+.primaryTitle h1{
+  font-size: 120px;
+}
+
+.primaryTitle h2{
+  text-align: center;
+  position: relative;
+  bottom: 40px;
+}
+
+.content{
+  padding-top: 100px;
+  padding-bottom: 50px;
+  z-index: 5;
+
+  font-family: seguisb;
+  color: white;
+  text-shadow: 1px 1px 2.5px black;
+  font-size: 35px;
+}
+
+.links{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.links a:link, .links a:visited, .links a:active{
+  color: inherit;
+  text-decoration: none;
+}
+
+.links a:hover{
+  text-decoration: underline;
+}
+
+.button{
+  border-radius: 25px;
+
+}
+
+.button span{
+  font-size: 70px;
+}
+
+#learn{
+  background-color: #306a91;
+
+}
+
+#act{
+  background-color: #e09809;
+}
+
+#resources{
+  background-color: #a10d0d;
+}
+
+
+p{
+  padding-top: 500px;
+}

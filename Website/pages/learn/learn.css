@@ -1,0 +1,135 @@
+/*Change Font*/
+@font-face {
+    font-family: seguisb;
+    src: url(/font/seguisb.ttf);
+}
+
+
+body{
+  /*background-color: #c8d2e0;*/
+  margin: 0;
+}
+
+.backgroundAndOverlay .overlay{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.75;
+  z-index: 0;
+  background-color: black;
+}
+
+.backgroundAndOverlay .background img{
+  display: block;
+  max-width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: -1;
+  padding-top: 50px;
+
+}
+
+.scroll{
+  z-index: 1;
+  position: fixed;
+  top: 625px;
+}
+
+.scroll img{
+  height: auto;
+  width: 175px;
+
+}
+
+.primaryTitle{
+  font-family: seguisb;
+  color: white;
+  text-shadow: 3px 3px 6px black;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 90px;
+  height: 1000px;
+  width: 1250px;
+  z-index: 5;
+
+}
+
+.primaryTitle h1{
+  font-size: 120px;
+}
+
+.primaryTitle h2{
+  text-align: center;
+  position: relative;
+  bottom: 40px;
+}
+
+.content{
+  padding-top: 100px;
+  padding-bottom: 10px;
+  z-index: 5;
+
+  font-family: seguisb;
+  color: white;
+  text-shadow: 1px 1px 2.5px black;
+  font-size: 35px;
+}
+
+.links{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.button{
+  border-radius: 25px;
+  width: 250px;
+  height: 150px;
+
+}
+
+.button span{
+  font-size: 70px;
+}
+
+#learn{
+  background-color: #306a91;
+
+}
+
+.text{
+  position: static;
+  margin-left: 10px;
+  background-color: #e09809;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-radius: 25px;
+
+}
+
+.text h1{
+  font-size: 35px;
+}
+
+.text li{
+  font-size: 20px;
+}
+
+.text .interior{
+  margin: 20px;
+}
+
+.text a:link, .text a:visited, .text a:active{
+  text-decoration: none;
+  color:inherit;
+}
+
+.text span:link, .text span:visited, .text span:active{
+  text-decoration: none;
+  color:inherit;
+}

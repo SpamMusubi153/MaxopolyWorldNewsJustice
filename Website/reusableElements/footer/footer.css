@@ -1,0 +1,44 @@
+#ad{
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bottomMenu{
+  position: static;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 65px;
+  background-color: #8da1a6;
+
+  text-align: center;
+  font-family: seguisb;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+
+}
+
+.bottomMenu img{
+  padding-top: 5px;
+  padding-left: auto;
+  padding-right: auto;
+  height: 35px;
+  width: auto;
+}
+
+.bottomMenu h4{
+  top: 0;
+  margin-top: 0;
+  font-size: 12px;
+}
+
+.bottomMenu a:link, .bottomMenu a:visited, .bottomMenu a:active{
+  text-decoration: none;
+  color:inherit;
+}
+
+.bottomMenu a:hover{
+  text-decoration: underline;
+}

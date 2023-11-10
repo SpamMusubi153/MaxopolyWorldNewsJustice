@@ -1,0 +1,86 @@
+/*Change Font*/
+@font-face {
+    font-family: seguisb;
+    src: url(/font/seguisb.ttf);
+}
+
+body{
+  /*background-color: #c8d2e0;*/
+  margin: 0;
+}
+
+.menu{
+  font-family: seguisb;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  //Change for Responsiveness;
+  position: fixed;
+  z-index: 100;
+}
+
+.menuLeft{
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 15px;
+  background-color: #8da1a6;
+  width: 370px;
+  height: 74px;
+  float: left;
+}
+
+.menuLeft img{
+  // Change for Responsiveness
+  height: 60px;
+  width: 60px;
+  margin-top: 7px;
+  margin-left: 5px;
+  float: left;
+  //box-shadow: 1px 1px 2px white;
+}
+
+.menuLeft .title{
+  line-height: 100%;
+  padding-top: 0.1px;
+  color: white;
+
+}
+
+.menuLeft h1{
+  font-size: 25px;
+}
+
+.menuLeft h2{
+  font-size: 16px;
+}
+
+.menuRight{
+  display: table;
+  float: right;
+  font-family: seguisb;
+  color: white;
+  width: 450px;
+  font-size: 10px;
+  position: fixed;
+  top: 0;
+  right: 0;
+
+}
+
+.menuRight a:link, .menuRight a:visited, .menuRight a:active{
+  text-decoration: none;
+  color:inherit;
+}
+
+.menuRight .pageButton{
+  text-decoration: none;
+  display: table-cell;
+  text-align: center;
+  height: 20px;
+  width: 400px;
+  background-color: #8da1a6;
+  border-radius: 0px 0px 80px 80px;
+}
+
+.pageButton:hover{
+  text-decoration: underline;
+}

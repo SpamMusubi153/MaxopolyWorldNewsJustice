@@ -1,0 +1,75 @@
+
+body{
+  /*background-color: #c8d2e0;*/
+  margin: 0;
+}
+
+.link{
+  padding-left: 20px;
+}
+
+.content{
+  padding-top: 100px;
+  padding-bottom: 10px;
+  z-index: 5;
+
+  font-family: seguisb;
+  color: white;
+  text-shadow: 1px 1px 2.5px black;
+  font-size: 35px;
+}
+
+.links{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.button{
+  border-radius: 25px;
+  width: 250px;
+  height: 150px;
+
+}
+
+.button span{
+  font-size: 70px;
+}
+
+#act{
+  background-color: #e09809;
+
+}
+
+.text{
+  position: static;
+  margin-left: 10px;
+  background-color: #a10d0d;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-radius: 25px;
+
+}
+
+.text h1{
+  font-size: 35px;
+}
+
+.text li{
+  font-size: 20px;
+}
+
+.text .interior{
+  margin: 20px;
+}
+
+.text a:link, .text a:visited, .text a:active{
+  text-decoration: none;
+  color:inherit;
+}
+
+.text span:link, .text span:visited, .text span:active{
+  text-decoration: none;
+  color:inherit;
+}

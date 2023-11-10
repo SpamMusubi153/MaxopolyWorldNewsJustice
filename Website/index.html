@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel='icon' href='/img/favicon.png' type='image/x-icon'/>
+    <title>MaxopolyWorldNews Justice</title>
+    <link rel="stylesheet" href="/home.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" charset="utf-8"></script>
+    <script src="/home.js" charset="utf-8"></script>
+
+    <script type="text/javascript">
+      $(function(){
+        $("#menu").load("/reusableElements/menuBar/menuBar.html");
+        $("#footer").load("/reusableElements/footer/footer.html");
+      })
+
+    </script>
+  </head>
+  <body onscroll="transitionContent()">
+
+    <div id="menu"></div>
+
+    <br>
+
+    <div class="primaryTitle" id="primaryTitle">
+      <h1>Undocumented</h1>
+      <h2>An Introduction to the Undocumented Workers and Immigrants that support the Infrastructure of our Country</h2>
+    </div>
+
+    <div class="backgroundAndOverlay">
+      <div class="overlay">
+
+      </div>
+      <div class="background">
+        <img src="/img/home.png" alt="Home Background Image">
+      </div>
+
+      <div class="scroll" id="scroll">
+        <img src="/img/Scroll.gif" alt="Scroll Down to Learn More">
+      </div>
+    </div>
+
+    <div class="content">
+
+      <table class="links" id="links">
+
+          <th class="button" id=learn>
+            <a href="/pages/learn/learn.html" target="_parent">
+              Step 1<br><span>Learn<span>
+            </a>
+          </th>
+
+        <th class="button" id=act>
+          <a href="/pages/act/act.html" target="_parent">
+            Step 2<br><span>Act<span>
+          </a>
+
+        </th>
+        <th class="button" id=resources><span style="font-size: 40px;">Coming Soon:</span><br><span style="font-size: 25px;">Resources for Undocumented Workers and Immigrants</span></th>
+      </table>
+
+    </div>
+
+    <div id="footer"></div>
+
+  </body>
+</html>
